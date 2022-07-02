@@ -234,7 +234,7 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
+    <!-- <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
@@ -246,6 +246,57 @@
           <script type="text/javascript" src="https://form.jotform.com/jsform/221616606533351"></script>
             
         </div> 
+      </div>
+    </section> -->
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Why not contact me?
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="https://formsubmit.co/2792fac1dacbf4ef6ad726d9efbfceba" method="POST" >
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button id="btn" type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
       </div>
     </section>
     <footer class="main-footer">
@@ -282,14 +333,42 @@
             </p>
           </div>
         </div>
-
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
         <div class="main-footer__lower">
            Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">JOHNSON DANIEL</a>
+          <a rel="noreferrer" target="_blank" href="https://d2ni3l.github.io">JOHNSON DANIEL</a>
         </div>
       </div>
     </footer>
     <script src="./index.js"></script>
   </body>
+<!-- 
+
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script>
+    var btn = document.getElementById('btn')
+    btn.addEventListener('click', function(e){
+      e.preventDefault()
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var message = document.getElementById('message').value;
+      var body = 'name: ' +name + '<br/> email: ' +email + '<br/> message' +
+      message + '<br/> message' + message;
+      
+      Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "lucoo345@gmail.com",
+    Password : "4130B6472736F57229F2CCA4D1C015488FED",
+    To : 'johnsonosaretindaniel@gmail.com',
+    From : 'lucoo345@gmail.com',
+    Subject : message,
+    Body : body
+}).then(
+  message => alert(message)
+);
+
+
+    })
+  </script> -->
+
 </html>
