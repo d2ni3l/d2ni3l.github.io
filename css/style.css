@@ -290,6 +290,7 @@ textarea {
   .projects__row:last-child {
     margin-bottom: 0; }
   .projects__row-img-cont {
+    width: 400px;
     overflow: hidden; }
   .projects__row-img {
     width: 100%;
