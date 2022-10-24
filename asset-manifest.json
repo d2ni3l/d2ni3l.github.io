@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.860843ce.css",
-    "main.js": "/static/js/main.6b5392c8.js",
+    "main.css": "/static/css/main.ad27b51d.css",
+    "main.js": "/static/js/main.daeaced2.js",
     "static/media/giocciacover.png": "/static/media/giocciacover.acbd66d108ba119b0a33.png",
     "static/media/loppsstudiocover.png": "/static/media/loppsstudiocover.3c08dea52e2db7ee1e4f.png",
     "static/media/Gardino-cover.png": "/static/media/Gardino-cover.3aef6fb871284a887e95.png",
@@ -31,11 +31,11 @@
     "static/media/dark.svg": "/static/media/dark.7de90b4309314982217767e25b58b9ab.svg",
     "static/media/npmicon.svg": "/static/media/npmicon.3f738c786e21bdbef2c86a59cd93cea2.svg",
     "static/media/tailwindicon.svg": "/static/media/tailwindicon.630e780a005f1df9a91cfa8ac5fea024.svg",
-    "main.860843ce.css.map": "/static/css/main.860843ce.css.map",
-    "main.6b5392c8.js.map": "/static/js/main.6b5392c8.js.map"
+    "main.ad27b51d.css.map": "/static/css/main.ad27b51d.css.map",
+    "main.daeaced2.js.map": "/static/js/main.daeaced2.js.map"
   },
   "entrypoints": [
-    "static/css/main.860843ce.css",
-    "static/js/main.6b5392c8.js"
+    "static/css/main.ad27b51d.css",
+    "static/js/main.daeaced2.js"
   ]
 }
